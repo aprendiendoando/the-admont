@@ -1,8 +1,6 @@
-# Foundation for Sites Template
+# The Admont Library - Landing Page
 
-**Please open all issues with this template on the main [Foundation for Sites](https://github.com/zurb/foundation-sites/issues) repo.**
-
-This is the basic starter project for [Foundation for Sites 6](http://foundation.zurb.com/sites). It includes a Sass compiler and a starter HTML file for you.
+This is a very basic page langing where we use the framework called Foundation in it is version 6 - @yavallejo
 
 ## Installation
 
@@ -13,36 +11,19 @@ To use this template, your computer needs:
 
 This template can be installed with the Foundation CLI, or downloaded and set up manually.
 
-### Using the CLI
-
-Install the Foundation CLI with this command:
-
-```bash
-npm install foundation-cli --global
-```
-
-Use this command to set up a blank Foundation for Sites project with this template:
-
-```bash
-foundation new --framework sites --template basic
-```
-
-The CLI will prompt you to give your project a name. The template will be downloaded into a folder with this name.
-
 ### Manual Setup
 
 To manually set up the template, first download it with Git:
 
 ```bash
-git clone https://github.com/zurb/foundation-sites-template projectname
+git clone git@github.com:aprendiendoando/the-admont.git
 ```
 
 Then open the folder in your command line, and install the needed dependencies:
 
 ```bash
-cd projectname
+cd the-admont
 npm install
-bower install
 ```
 
-Finally, run `npm start` to run the Sass compiler. It will re-run every time you save a Sass file.
+Finally type the name of the `gulp` task in the console to compile SASS and execute all the tasks created in the gulpfile.js
