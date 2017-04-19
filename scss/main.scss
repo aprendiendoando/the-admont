@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon/icomoon.eot?i3zzrb');
+  src:  url('fonts/icomoon/icomoon.eot?i3zzrb#iefix') format('embedded-opentype'),
+    url('fonts/icomoon/icomoon.ttf?i3zzrb') format('truetype'),
+    url('fonts/icomoon/icomoon.woff?i3zzrb') format('woff'),
+    url('fonts/icomoon/icomoon.svg?i3zzrb#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="yan-"], [class*=" yan-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1.6rem;
+}
+
+.yan-sphere:before {
+  content: "\e9c9";
+}
+.yan-facebook:before {
+  content: "\ea90";
+}
+.yan-twitter:before {
+  content: "\ea96";
+}
+.yan-youtube2:before {
+  content: "\ea9e";
+}
+
+
+.animation-hover{
+    overflow: hidden;
+}
+
+.footer{
+    background-color: $dark-primary-color;
+    color:$white;
+    padding: 5rem 0 0.5rem;
+}
+
+.space-section{
+    margin-top:3rem;
+    margin-bottom:3rem;
+    &--bottom{
+        margin-bottom:0;
+    }
+}
+
+
+.orbit-caption{
+    color: $white;
+    font-weight: bold;
+}
+
+.top-bar-right {
+  
+  @include breakpoint(medium) {
+     padding-top:8px;
+  }
+}
+
+
+.border-radius{
+    border-radius: $global-radius + 10px;
+    overflow: hidden;
+    border:5px solid $light-primary-color;
+    transition: all .3s ease-out;
+    &:hover{
+        
+            transform: scale(1.2);
+            border:5px solid $default-primary-color;
+        
+    }
+
+}
+
