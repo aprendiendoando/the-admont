@@ -38,13 +38,16 @@
 
 .box-white{
   background-color:$white;
-  padding: 5rem;
+  padding: 2rem;
   text-align: center;
   h3{
     text-transform: uppercase;
     font-size: 3rem;
     font-weight: bold;
     margin-bottom:3rem;
+  }
+  @include breakpoint(medium) {
+     padding: 5rem;
   }
   
 }
